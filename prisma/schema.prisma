@@ -1,0 +1,32 @@
+// prisma/schema.prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Registro anónimo de sesiones — sin datos personales
+model SesionAnonima {
+  id              Int      @id @default(autoincrement())
+  createdAt       DateTime @default(now())
+  // Inputs agregados (no personales)
+  pesoInseguridad Int
+  pesoEconomia    Int
+  pesoCorrupcion  Int
+  perfilBuscado   String?
+  numVetados      Int
+  preguntasSaltadas Int
+  // Top 3 resultados (IDs y porcentajes)
+  top1CandidatoId Int?
+  top1Afinidad    Int?
+  top2CandidatoId Int?
+  top2Afinidad    Int?
+  top3CandidatoId Int?
+  top3Afinidad    Int?
+  confianza       Float
+
+  @@map("sesiones_anonimas")
+}
