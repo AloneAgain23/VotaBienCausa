@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${SITE.nombre} — ${SITE.tagline}`,
     description: SITE.descripcionMeta,
+    images: ['/og-image.png'],
     locale: 'es_PE',
     type: 'website',
   },
