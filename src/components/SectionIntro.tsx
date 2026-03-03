@@ -265,8 +265,7 @@ export default function SectionIntro({ onEmpezarTest }: Props) {
       <div style={{ background: 'var(--gris-fondo)', padding: '80px 24px' }}>
         <div style={{ maxWidth: 720, margin: '0 auto', display: 'flex', flexDirection: 'column', gap: 72 }}>
           <StoryBlock>
-            <div style={{ borderLeft: '3px solid var(--rojo)', paddingLeft: 28 }}>
-              <p style={{ fontSize: '0.72rem', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--rojo)', marginBottom: 10 }}>01</p>
+              <div id="iniciativa" style={{ borderLeft: '3px solid var(--rojo)', paddingLeft: 28 }}>              <p style={{ fontSize: '0.72rem', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--rojo)', marginBottom: 10 }}>01</p>
               <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.6rem, 4vw, 2.2rem)', marginBottom: 16 }}>{INICIATIVA.titulo}</h2>
               <p style={{ fontSize: '1rem', color: 'var(--gris-oscuro)', lineHeight: 1.8, maxWidth: 560 }}>{INICIATIVA.cuerpo}</p>
             </div>
@@ -279,8 +278,7 @@ export default function SectionIntro({ onEmpezarTest }: Props) {
             </div>
           </StoryBlock>
           <StoryBlock delay={0.05}>
-            <div style={{ borderLeft: '3px solid var(--gris-claro)', paddingLeft: 28 }}>
-              <p style={{ fontSize: '0.72rem', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--gris-medio)', marginBottom: 10 }}>03</p>
+              <div id="metodologia" style={{ borderLeft: '3px solid var(--gris-claro)', paddingLeft: 28 }}>              <p style={{ fontSize: '0.72rem', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--gris-medio)', marginBottom: 10 }}>03</p>
               <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.6rem, 4vw, 2.2rem)', marginBottom: 12 }}>{METODOLOGIA.titulo}</h2>
               <p style={{ fontSize: '0.95rem', color: 'var(--gris-oscuro)', marginBottom: 20 }}>{METODOLOGIA.intro}</p>
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 12 }}>
