@@ -184,7 +184,7 @@ export const CANDIDATOS: Candidato[] = [
     nombre: "LUIS FERNANDO OLIVERA VEGA",
     partido: "PARTIDO FRENTE DE LA ESPERANZA 2021",
     foto_url: "https://mpesije.jne.gob.pe/apidocs/3e2312e1-af79-4954-abfa-a36669c1a9e9.jpg",
-    perfil: "Político con experiencia" ",
+    perfil: "Político con experiencia",
     P1: 2, P2: 4, P3: 4, P4: 5, P5: 5,
     P6: 0, P7: 0, P8: 2, P9: 2, P10: 4,
     P11: 0, P12: 0, P13: 0, P14: 0, P15: 0
