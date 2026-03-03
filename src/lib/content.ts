@@ -44,8 +44,8 @@ export const METODOLOGIA = {
 export const QR_COLABORA = {
   mostrar: true,
   titulo: '¿Quieres colaborar?',
-  descripcion: 'Este proyecto es independiente y sin fines de lucro. Si te parece útil, puedes apoyar su mantenimiento escaneando el código QR.',
-  qr_url: '', // Reemplazar con URL de imagen del QR (Yape, Plin, etc.)
+  descripcion: 'Este proyecto es independiente y sin fines de lucro. Si te parece útil, puedes apoyar su mantenimiento escaneando el código QR a nombre Angelo Palomino.',
+  qr_url: 'https://i.imgur.com/VSYg159.jpeg', // Reemplazar con URL de imagen del QR (Yape, Plin, etc.)
   metodo: 'Yape / Plin',
   instruccion: 'Escanea para colaborar',
 };
