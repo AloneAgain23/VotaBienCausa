@@ -62,7 +62,7 @@ export const EQUIPO_NUCLEO = [
     nombre: 'Gimena Valeria Collazos',
     rol: 'Redes & Difusiòn',
     bio: 'Ciencia Política en la Universidad Nacional Federico Villarreal con interés en ámbitos de Gestión Pública, Sistema Electoral y Gestión Cultural',
-    foto_url: '',
+    foto_url: 'https://i.imgur.com/8QubQMg.jpeg',
     linkedin: 'https://www.linkedin.com/in/gimenavaleriacollazosportocarrero/',
   },
 ];
