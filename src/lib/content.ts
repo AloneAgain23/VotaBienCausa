@@ -58,6 +58,13 @@ export const EQUIPO_NUCLEO = [
     foto_url: 'https://i.imgur.com/E59fl5F.jpeg',
     linkedin: 'https://www.linkedin.com/in/angelo-geraldo-palomino-soto-96b058269',
   },
+  {
+    nombre: 'Gimena Valeria Collazos',
+    rol: 'Redes & Difusiòn',
+    bio: 'Ciencia Política en la Universidad Nacional Federico Villarreal con interés en ámbitos de Gestión Pública, Sistema Electoral y Gestión Cultural',
+    foto_url: '',
+    linkedin: 'https://www.linkedin.com/in/gimenavaleriacollazosportocarrero/',
+  },
 ];
 
 export const COLABORADORES = [
@@ -69,17 +76,24 @@ export const COLABORADORES = [
     linkedin: '',
   },
   {
-    nombre: 'quien',
-    rol: 'xx',
-    bio: 'xx.',
-    foto_url: 'xx',
-    linkedin: 'xx',
+    nombre: 'Adrian Leonardo Quispe Gallardo',
+    rol: 'Comunicaciones y Redes Sociales',
+    bio: 'Estudiante de 5to año de Ciencia Política en la Universidad Federico Villarreal. Interés en Gestión Pública, Políticas públicas, Diplomacia y Relaciones Internacionales.',
+    foto_url: 'https://i.imgur.com/qt3utJV.jpeg',
+    linkedin: 'https://www.linkedin.com/in/adrian-leonardo-quispe-gallardo-04327a273/',
   },
   {
-    nombre: 'xx',
-    rol: 'xx',
-    bio: 'xx',
-    foto_url: 'xx',
-    linkedin: 'xx',
+    nombre: 'Maricielo Cienfuegos Panta',
+    rol: 'Comunicaciones y Redes Sociales',
+    bio: 'Historiadora y gestora cultural por la Universidad de Piura, con experiencia en formulación y gestión de proyectos culturales y sociales, así como en iniciativas de difusión histórica, patrimonio y participación ciudadana. ',
+    foto_url: 'https://i.imgur.com/rUjG08c.jpeg',
+    linkedin: 'https://www.linkedin.com/in/maricielo-cienfuegos-panta-745ba321b/',
+  },
+  {
+    nombre: 'Mel Angelina Huaman Chamba',
+    rol: 'Comunicaciones y Redes Sociales',
+    bio: 'Estudiante de tercer año de Ciencia Política en la Universidad Nacional Federico Villarreal, con interés en la comunicación política. Participó como comisionada en la organización del Macrocoloquio de Estudiantes de Ciencia Política, brindando apoyo en el desarrollo del evento.',
+    foto_url: 'https://i.imgur.com/vqUAacK.jpeg',
+    linkedin: 'https://www.linkedin.com/in/mel-angelina-huaman-chamba-64b57b362/',
   },
 ];
