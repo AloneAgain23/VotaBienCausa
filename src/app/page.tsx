@@ -19,7 +19,7 @@ function SiteFooter() {
       background: 'var(--gris-fondo)',
     }}>
       <p style={{ fontSize: '0.78rem', color: 'var(--gris-medio)' }}>
-        <strong style={{ color: 'var(--negro)' }}>VotaBienCausa.pe</strong>
+        <strong style={{ color: 'var(--negro)' }}>VotaBienCausa.com</strong>
         {' '}— Sin fines de lucro · Sin recomendaciones de voto · Sin datos personales
       </p>
 
