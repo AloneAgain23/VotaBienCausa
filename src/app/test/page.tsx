@@ -98,7 +98,7 @@ function TestContent() {
               color: 'var(--gris-oscuro)', fontSize: '1rem',
               lineHeight: 1.75, marginBottom: 12,
             }}>
-              Responde 16 preguntas sobre seguridad, economía, corrupción y social.
+              Responde 16 preguntas sobre los temas que más le importan a los peruanos.
               El cálculo es matemático, transparente y sin sesgos.
             </p>
 
