@@ -43,8 +43,8 @@ export const METODOLOGIA = {
 
 export const QR_COLABORA = {
   mostrar: true,
-  titulo: '¿Quieres colaborar?',
-  descripcion: 'Este proyecto es independiente y sin fines de lucro. Si te parece útil, puedes apoyar su mantenimiento escaneando el código QR a nombre Angelo Palomino.',
+  titulo: '¿Quieres colaborar en nuestros futuros proyectos?',
+  descripcion: '¿Deseas co-crear el futuro de la integridad pública? Apoya nuestra iniciativa para desarrollar protocolos de blockchain para la trazabilidad presupuestaria, modelos de minería de datos para la detección de riesgos de corrupción y sistemas de IA enfocados en la fiscalización del cumplimiento de planes de gobierno. Tu colaboración es clave para continuar con el proyecto.',
   qr_url: 'https://i.imgur.com/VSYg159.jpeg', // Reemplazar con URL de imagen del QR (Yape, Plin, etc.)
   metodo: 'Yape',
   instruccion: 'Escanea para colaborar',
