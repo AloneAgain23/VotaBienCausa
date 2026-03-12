@@ -27,7 +27,7 @@ function SiteFooter() {
       <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
 
         {/* Instagram */}
-        <a href="https://instagram.com/TU_USUARIO" target="_blank" rel="noopener noreferrer"
+        <a href="https://www.instagram.com/votabiencausa" target="_blank" rel="noopener noreferrer"
           style={{ color: 'var(--gris-medio)', transition: 'color 0.2s' }}
           onMouseEnter={e => (e.currentTarget.style.color = 'var(--negro)')}
           onMouseLeave={e => (e.currentTarget.style.color = 'var(--gris-medio)')}
@@ -38,7 +38,7 @@ function SiteFooter() {
         </a>
 
         {/* Facebook */}
-        <a href="https://facebook.com/TU_PAGINA" target="_blank" rel="noopener noreferrer"
+        <a href="https://www.facebook.com/votabiencausa" target="_blank" rel="noopener noreferrer"
           style={{ color: 'var(--gris-medio)', transition: 'color 0.2s' }}
           onMouseEnter={e => (e.currentTarget.style.color = 'var(--negro)')}
           onMouseLeave={e => (e.currentTarget.style.color = 'var(--gris-medio)')}
@@ -49,7 +49,7 @@ function SiteFooter() {
         </a>
 
         {/* X / Twitter */}
-        <a href="https://twitter.com/TU_USUARIO" target="_blank" rel="noopener noreferrer"
+        <a href="https://x.com/VotaBienCausa26" target="_blank" rel="noopener noreferrer"
           style={{ color: 'var(--gris-medio)', transition: 'color 0.2s' }}
           onMouseEnter={e => (e.currentTarget.style.color = 'var(--negro)')}
           onMouseLeave={e => (e.currentTarget.style.color = 'var(--gris-medio)')}
