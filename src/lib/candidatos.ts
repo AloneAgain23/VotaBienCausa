@@ -222,9 +222,9 @@ export const CANDIDATOS: Candidato[] = [
     partido: "PARTIDO DEL BUEN GOBIERNO",
     foto_url: "https://mpesije.jne.gob.pe/apidocs/9ae56ed5-3d0f-49ff-8bb9-0390bad71816.jpg",
     perfil: "Político con experiencia",
-    P1: 5, P2: 4, P3: 3, P4: 1, 
-    P5: 0, P6: 4, P7: 2, P8: 3, 
-    P9: 4, P10: 2, P11: 0, P12: 3, 
+    P1: 1, P2: 3, P3: 3, P4: 1, 
+    P5: 3, P6: 4, P7: 2, P8: 3, 
+    P9: 4, P10: 3, P11: 1, P12: 3, 
     P13: 4, P14: 5, P15: 3, P16: 1
   },
   {
