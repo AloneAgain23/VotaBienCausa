@@ -52,6 +52,7 @@ export async function POST(req: NextRequest) {
     // Guardar estadísticas anónimas SOLO si DATABASE_URL está configurada
     try {
       if (process.env.DATABASE_URL) {
+        console.log('[DB] DATABASE_URL detectada, intentando guardar...');
         const { prisma } = await import('@/lib/prisma');
         await prisma.sesionAnonima.create({
           data: {
